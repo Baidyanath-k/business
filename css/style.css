@@ -1,0 +1,583 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+/*Basic CSS End*/
+
+.full_navbar {
+    background-color: #ffffff;
+}
+
+.full_navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px 7px 5px 7px;
+    transition: all 0.4s linear;
+    position: relative;
+}
+
+.full_navbar .collapse .navbar-nav .nav-item .nav-link:before {
+    position: absolute;
+    content: "";
+    bottom: -19px;
+    ;
+    left: 3px;
+    width: 0;
+    height: 3px;
+    background-color: #26cDFF;
+    transition: all 0.4s linear;
+}
+
+.full_navbar .collapse .navbar-nav .nav-item .nav-link:hover:before {
+    width: 100%;
+}
+
+.full_navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #26CDFF;
+}
+
+/*End of full_navbar*/
+
+#full_banner {
+    padding: 100px 0;
+    background: url(../images/about.jpg) top left no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#full_banner:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+.banner {}
+
+.banner h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.banner p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 35px;
+    width: 650px;
+}
+
+.ban_para_first {
+    color: #ffffff;
+    padding: 6px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.ban_para_first:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background-color: #26CDFF;
+}
+
+.ban_para_second {
+    color: #05536A;
+    padding: 15px 0;
+}
+
+.banner_batton {}
+
+.banner_batton a {
+    display: inline-block;
+}
+
+.banner_batton a button {
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #26CDFF;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition: all 0.4s linear;
+}
+
+.banner_batton a button:hover {
+    border-color: #26CDFF;
+    color: #26CDFF;
+    background-color: #ffffff;
+}
+
+/*End of full_banner*/
+
+#full_about {
+    padding: 100px 0 50px 0;
+}
+
+.all_about {}
+
+.about_left {}
+
+.about_image {
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.about_image img {}
+
+.about_right {}
+
+.about_right h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 16px 0;
+    position: relative;
+}
+
+.about_right h2:before {
+    position: absolute;
+    content: "";
+    width: 75px;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #26CDFF;
+}
+
+.about_right h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    padding: 20px 0;
+    line-height: 26px;
+
+}
+
+.about_right p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+}
+
+.about_bottom_1 {
+    background-color: #033D75;
+    padding: 30px 0;
+    width: 377px;
+    margin-top: 50px;
+    transition: all 0.4s linear;
+}
+
+.about_bottom_1:hover {
+    background-color: #26CDFF;
+}
+
+.ab_bot_image {
+    float: left;
+}
+
+.ab_bot_image img {
+    width: 40px;
+}
+
+.ab_bot_text {
+    float: left;
+}
+
+.ab_bot_text h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    padding-top: 10px;
+
+}
+
+/*End of full_about*/
+
+#full_service {
+    padding: 100px 0;
+    background-color: #F8F8F8;
+}
+
+.service_head {}
+
+.service_head h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 16px 0;
+    position: relative;
+}
+
+.service_head h2:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 460;
+    width: 55px;
+    height: 5px;
+    background-color: #26CDFF;
+}
+
+.service_head p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+    width: 660px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.all_service {
+    padding-top: 35px;
+}
+
+.service {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    box-shadow: -1px 0px 7px 1px rgba(0, 0, 0, 0.75);
+    border: 2px solid transparent;
+    transition: all 0.4s linear;
+}
+
+.service:hover {
+    border-color: #26CDFF;
+}
+
+.service:hover .ser_heading h5 {
+    color: #26CDFF;
+}
+
+.service .ser_image {}
+
+.service .ser_image img {}
+
+.service .ser_heading {
+    padding: 20px 0 15px 0;
+}
+
+.service .ser_heading h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.69);
+    transition: all 0.4s linear;
+}
+
+.service .ser_text {}
+
+.service .ser_text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.69);
+    width: 318px;
+    margin: auto;
+    text-align: center;
+}
+
+/*End of full_service*/
+
+
+#full_mission {
+    padding: 100px 0;
+}
+
+.all_mission {}
+
+.mission_left {}
+
+.mission_head {}
+
+.mission_head h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 16px 0;
+    position: relative;
+}
+
+.mission_head h2:before {
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #26CDFF;
+}
+
+.mission_para {}
+
+.mission_para p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.60);
+    width: 554px;
+    margin: auto;
+    line-height: 30px;
+    padding: 12px 0;
+    padding-bottom: 18px;
+    text-align: justify;
+}
+
+.mission_details {}
+
+.mission_details ol {}
+
+.mission_details ol li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+.mission_details ol li:before {
+    content: "\2022";
+    color: #26CDFF;
+    font-weight: 800;
+    display: inline-block;
+    width: 20px;
+
+}
+
+.mission_button {}
+
+.mission_button a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.mission_button a button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    color: rgba(0, 0, 0, 0.60);
+    background-color: #26CDFF;
+    padding: 12px 18px;
+    margin-right: 10px;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition: all 0.4s linear;
+}
+
+.mission_button a button:hover {
+    background-color: #ffffff;
+    color: #26CDFF;
+    border-color: #26CDFF;
+}
+
+.mission_right {}
+
+.mission_image {}
+
+.mission_image img {}
+
+/*End of full_mission*/
+
+#full_features {
+    padding-bottom: 100px;
+    padding-top: 30px;
+    background-color: #F8F8F8;
+}
+
+.feature_head {
+    padding-bottom: 60px;
+}
+
+.feature_head h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+    padding: 16px 0;
+    position: relative;
+}
+
+.feature_head h2:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 45%;
+    width: 68px;
+    height: 5px;
+    background-color: #26CDFF;
+}
+
+.feature_head p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 920px;
+    margin: auto;
+    line-height: 30px;
+}
+.features_body{}
+.features{
+    position: relative;
+}
+.features img{}
+.features_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(19, 66, 114, 0.7);
+    padding-top: 20px;
+    
+}
+.over_awesome{
+    padding-bottom: 10px;
+}
+.over_awesome i{
+    font-size: 50px;
+    color: #ffffff;
+}
+.over_text{}
+.over_text h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: capitalize;
+    transition: all 0.4s linear;
+}
+.over_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.features_overlay:hover .over_text h4{
+    color: #26CDFF;
+}
+/*End of full_features*/
+
+
+#full_request{
+    background: url(../images/form_bg.jpg) top left no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+    position: relative;
+}
+#full_request:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+}
+.head_form{
+    padding-bottom: 40px;
+}
+.head_form h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 16px 0;
+    position: relative;
+}
+.head_form h2:before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background-color: #26CDFF;
+}
+.head_form p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 30px;
+    width: 660px;
+    padding-top: 10px;
+}
+.first_form{
+    margin-bottom: 25px;
+}
+.form-group{
+    margin-top: 25px;
+}
+.form-group textarea{
+    resize: none;
+}
+.main_form{}
+.form-control{
+    border-radius: 0;
+    border: none;
+    padding: 25px 0;
+    padding-left: 10px;
+}
+.btn{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #26CDFF;
+    color: #ffffff;
+    border-radius: 0;
+    border: 2px solid transparent;
+    transition: all 0.4s linear;
+}
+.btn:hover{
+    border-color: #26CDFF;
+    background-color: transparent;
+    color: #26CDFF;
+}
